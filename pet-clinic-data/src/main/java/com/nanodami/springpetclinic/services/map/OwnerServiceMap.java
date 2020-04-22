@@ -11,9 +11,4 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     public Owner findByLastName(String name) {
         return null;
     }
-
-    @Override
-    public Owner save(Owner object) {
-        return super.save(object.getId(), object);
-    }
 }
